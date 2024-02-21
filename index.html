@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote_head">QUOTE OF THE DAY</div>
+        <div class="quote-container" id="quoteContainer">
+            <div class="quote" id="quoteText"></div>
+        </div>
+        <div class="controls">
+            <select id="categorySelect">
+                <option value="science">Science</option>
+                <option value="inspiration">Inspiration</option>
+            </select>
+            <button id="prevButton">Previous</button>
+            <button id="randomButton">Random</button>
+            <button id="nextButton">Next</button>
+            
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
