@@ -31,5 +31,19 @@ body {
 .quote {
     font-size: 1.2rem;
     line-height: 1.6;
+  
 }
 
+.control{
+    margin: 2rem;
+   
+}
+
+#categorySelect, #prevButton, #randomButton, #nextButton{
+padding: 0.8rem;
+border-radius: 15px;
+}
+
+#nextButton{
+    max-width: 8rem;
+}
