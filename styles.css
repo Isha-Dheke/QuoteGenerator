@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #185573;
+    background-color: #fbfdfe;
     color: #333;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -16,7 +16,7 @@ body {
 .quote_head{
     font-size: 5rem;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(9, 9, 9);
 }
 
 
@@ -70,3 +70,32 @@ border-radius: 15px;
 #nextButton{
     max-width: 8rem;
 }
+
+.mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+  }
+  
+  .fontsize-toggle {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .dark-mode {
+    background-color: #4e4b4b;
+  }
+
+  #increaseFontBtn, decreaseFontBtn{
+    padding: 0.8rem;
+    border-radius: 15px;
+  }
+
+  darkModeToggle{
+    font-size: 50px;
+    font-weight: bold;
+  }
