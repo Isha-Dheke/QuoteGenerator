@@ -99,3 +99,42 @@ border-radius: 15px;
     font-size: 50px;
     font-weight: bold;
   }
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+      padding: 10px; 
+    }
+  
+    .quote_head {
+        margin-top: 10%;
+      font-size: 3rem; 
+    }
+  
+    .quote-container {
+      padding: 50px; 
+      border-radius: 40px;
+    }
+  
+    .quote {
+      font-size: 1.2rem; 
+    }
+  
+    .control {
+      margin: 1rem; 
+    }
+  
+  
+    button {
+      padding: 6px 12px;
+      margin: 0 3px;
+      font-size: 0.9rem;
+    }
+  
+    
+    .fontsize-toggle {
+      font-size: 2rem;
+    }
+  }
+  
